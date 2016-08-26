@@ -1,0 +1,216 @@
+body {
+    font-family: YouYuan, "幼圆","Helvetica Neue", Helvetica,  Arial, "黑体", "宋体", sans-serif;;
+    font-size: 13px;
+}
+
+*,h4,h1,h2,h3,h5 {
+    font-family: YouYuan,'幼圆';
+    box-sizing: border-box;
+    outline: none;
+    font-weight: inherit;
+}
+a{
+    color: #555;
+}
+a:hover{
+    color: #fa9300;
+    text-decoration: none;
+}
+
+
+/*header*/
+.head{
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #9c9c9c;
+}
+.logo {
+    padding: 8px 30px;
+    border-bottom: 2px solid #fa9300;
+}
+
+.logo a {
+    line-height: 45px;
+}
+.dropdown-menu-right{
+    top: 52px;
+}
+
+/*导航*/
+.nav-api {
+    margin-left: 30px;
+}
+
+.nav-api > li {
+    float: left;
+}
+
+.nav-api > li > a {
+    color: #555;
+    padding: 0 20px;
+}
+
+.nav-api > .active > a, .nav-api > li > a:hover, .nav-api > li > a:focus {
+    color: #fa9300;
+    background-color: transparent;
+}
+
+/*
+    bootstrap的改写部分
+*/
+.row, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+/*
+-------
+input框 点击背景边框变更
+-------
+*/
+input[type=file]:focus, input[type=checkbox]:focus, input[type=radio]:focus,.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+    outline-offset: inherit;
+}
+
+.form-control:focus {
+    border-color: transparent;
+}
+/*
+-------
+提交按钮样式
+-------
+*/
+.btn-submit {
+    background-color: #fa9300;
+    color: #ffffff;
+}
+
+.btn-submit:hover {
+    background-color: #da8307;
+    color: #ffffff;
+    box-shadow: 0 0 5px #ffffff;
+}
+/*
+-------
+颜色
+-------
+*/
+.orange {
+    color: #fa9300;
+}
+/*
+-------
+按钮
+-------
+*/
+.btn-pad {
+    padding: 6px 28px;
+}
+/*
+-------
+表单label
+-------
+*/
+.control-label {
+    text-align: right;
+    line-height: 34px;
+}
+
+/*
+-------
+文件选择
+-------
+*/
+.file-api {
+    width: 34px;
+    height: 34px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: url("../img/file.png");
+    position: absolute;
+    left: 20px;
+    top: 0;
+    font-size: 100px;
+    cursor: pointer;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill,.form-control:focus{
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+    border-color: #cccccc;
+}
+
+/*
+-------
+三角形
+-------
+*/
+.arrow,.arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.arrow {
+    top: -11px;
+    left: 50%;
+    border-width: 11px;
+    margin-left: -11px;
+    border-top-width: 0;
+    border-bottom-color: #999;
+    border-bottom-color: rgba(0,0,0,.25);
+}
+.arrow:after{
+    border-width: 10px;
+    top: 1px;
+    margin-left: -10px;
+    content: "";
+    border-top-width: 0;
+    border-bottom-color: #fff;
+}
+
+label{
+    font-weight: inherit;
+}
+
+.radio-inline,.radio-inline+.radio-inline{
+    margin-top: 7px;
+}
+
+/*
+-------
+下拉菜单
+-------
+*/
+.dropdown-menu>li>a{
+    padding: 10px 20px;
+}
+.dropdown-menu>li>a:hover{
+    color: #fa9300;
+}
+.dropdown-menu{
+    min-width: 200px;
+    font-size: 13px;
+}
+/*
+-------
+二级菜单
+-------
+*/
+.subnav_api{
+    background-color: #000;
+}
+.subnav_api>.nav>li>a{
+    color: #ffffff;
+    background-color: #000;
+}
+.subnav_api>.nav>li>a:hover,.subnav_api>.nav>li.active>a,.subnav_api>.nav>li>a.active{
+    background-color: transparent;
+    color: #fa9300;
+    cursor: pointer;
+}

@@ -1,0 +1,83 @@
+html, body {
+    font-family:YouYuan, "幼圆", "Helvetica Neue", Helvetica,  Arial, "黑体", "宋体", sans-serif;
+    background: #000;
+    margin: 0;
+    padding: 0;
+    color:#c7c7c7;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.api-content{
+    width: 100%;
+    /*height: 100%;*/
+    position: absolute;
+    top: 77px;
+    bottom: 0px;
+}
+.z-index{
+    position: relative;
+    z-index: 2;
+}
+a{
+    color: #fa9300;
+}
+a:hover{
+    color: #cf7b03;
+    text-decoration: none;
+}
+
+.sign-input{
+    background-color: #292929;
+    opacity: .44;
+    color: #c7c7c7;
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 36px;
+    border: 1px solid #cccccc;
+    padding: 0 10px;
+    outline: none;
+}
+.bg-sigin{
+    background: url("../img/sign_in.png") no-repeat;
+    background-size: 50% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.form-sign{
+    margin-top: 100px;
+}
+.form-sign>.form-group{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px){
+    .bg-sigin{
+        background: transparent;
+    }
+}
+
+/*注册页面*/
+.form-sign-up{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+@media (max-width: 400px){
+    .logo>.pull-right{
+        display: none;
+    }
+    .form-sign-up{
+        padding: 20px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}

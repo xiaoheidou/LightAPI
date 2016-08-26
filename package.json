@@ -1,0 +1,17 @@
+{
+  "name": "api_jenny",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "github:fortawesome/Font-Awesome",
+    "jquery": "^3.1.0"
+  }
+}
